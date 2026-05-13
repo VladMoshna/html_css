@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+
+h1 {
+    text-align: left;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+
+.season {
+    margin-bottom: 25px;
+}
+
+.season h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+.season ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.season li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.winter h2 { color: #3498db; }
+.spring h2 { color: #27ae60; }
+.summer h2 { color: #e67e22; }
+.autumn h2 { color: #d35400; }  
