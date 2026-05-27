@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Спливаючі іконки</title>
+
+<style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:beige;
+    font-family:Arial;
+}
+
+.container{
+    width:700px;
+    text-align:center;
+    position:relative;
+}
+
+h1{
+    color:black;
+    margin-bottom:80px;
+}
+
+.scene{
+    position:relative;
+    height:300px;
+}
+
+.icon{
+    position:absolute;
+    width:90px;
+
+    opacity:0;
+
+    transition:2s;
+}
+
+.icon1{
+    left:120px;
+    top:80px;
+
+    transform:translateY(300px) rotate(-20deg);
+
+    transition-delay:0s;
+}
+
+.icon2{
+    left:230px;
+    top:40px;
+
+    transform:translateY(300px) rotate(-12deg);
+
+    transition-delay:0.5s;
+}
+
+.icon3{
+    left:360px;
+    top:40px;
+
+    transform:translateY(300px) rotate(12deg);
+
+    transition-delay:1s;
+}
+
+.icon4{
+    left:520px;
+    top:90px;
+
+    transform:translateY(300px) rotate(20deg);
+
+    transition-delay:1.5s;
+}
+
+.icon5{
+    left:300px;
+    top:180px;
+
+    transform:translateY(300px) rotate(90deg);
+
+    transition-delay:2s;
+}
+
+.loaded .icon1{
+    opacity:1;
+    transform:translateY(0) rotate(-20deg);
+}
+
+.loaded .icon2{
+    opacity:1;
+    transform:translateY(0) rotate(-12deg);
+}
+
+.loaded .icon3{
+    opacity:1;
+    transform:translateY(0) rotate(12deg);
+}
+
+.loaded .icon4{
+    opacity:1;
+    transform:translateY(0) rotate(20deg);
+}
+
+.loaded .icon5{
+    opacity:1;
+    transform:translateY(0) rotate(90deg);
+}
+
+</style>
+</head>
+
+<body class="loaded">
+
+<div class="container">
+
+    <h1>HELLO, MY SITE!</h1>
+
+    <div class="scene">
+
+        <img src="resources/book.png" class="icon icon1">
+        <img src="resources/calc.png" class="icon icon2">
+        <img src="resources/pallete.png" class="icon icon3">
+        <img src="resources/paper.png" class="icon icon4">
+        <img src="resources/pencil.png" class="icon icon5">
+
+    </div>
+
+</div>
+
+</body>
+</html>
