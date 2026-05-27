@@ -4,6 +4,11 @@ body {
 
 #h_1 {
     text-align: center;
+    
+}
+p {
+    text-align: center;
+    width: 2500px;
 }
 
 .modal {
