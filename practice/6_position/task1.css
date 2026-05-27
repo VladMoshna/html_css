@@ -6,9 +6,9 @@ body {
     text-align: center;
     
 }
-p {
+.awd {
     text-align: center;
-    width: 2500px;
+    margin: 100px;
 }
 
 .modal {
