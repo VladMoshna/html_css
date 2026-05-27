@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p {
+            transition: all 1s ease 0s;
+        } */
+        p:hover {
+            animation-name: change-text;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes change-text {
+            from {
+                color: black;
+            }
+            to {
+                color: chocolate;
+            }
+        }
+
+        td > img {
+            max-width: 150px;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td:first-child {
+            text-align: center;
+            padding: 0.4em;
+        }
+
+        /* tr:not(:first-child) {
+            height: 150px;
+        } */
+
+        th, td {
+            border: 1px solid black;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Аватар</th>
+            <th>Ім'я</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td><img src="./resources/88583fc1c82c4850d23d03a14e323400.jpg" alt="жаби жаби"></td>
+            <td>Mr.Jaba</td>
+            <td><a href="oapwdjpai@gmail.com">oapwdjpai@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td><img src="./resources/gondonchik.jfif" alt="gondonchik"></td>
+            <td><span>gondonchik</span></td>
+            <td><a href="fgauiwgdawdiu@gmail.com">fgauiwgdawdiu@gmail.com</a></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="2">Full Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>
+                Jill
+            </td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jeckson</td>
+            <td>57</td>
+        </tr>
+    </table>
+
+    <!-- <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, qui.</p> -->
+</body>
+</html>
