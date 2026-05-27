@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <style>
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        
+        .wrapper {
+            background-color: #f7f7f9;
+            width: 100%;
+            max-width: 700px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border: 1px solid #e1e4e8;
+        }
+
+        
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        
+        hr {
+            border: 0;
+            border-top: 1px solid #eaecef;
+            margin: 20px 0;
+        }
+
+        
+        p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #24292e;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        
+        .term-underline {
+            text-decoration: underline;
+        }
+
+        
+        pre {
+            background-color: #f6f8fa;
+            border: 1px solid #e1e4e8;
+            border-radius: 3px;
+            padding: 15px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 12px;
+            line-height: 1.4;
+            color: #24292e;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        
+        code {
+            font-family: monospace;
+            background-color: rgba(27,31,35,0.05);
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 13px;
+            color: #e06c75; /* Выделение тегов цветом */
+        }
+
+        
+        .tags-section {
+            font-size: 11px;
+            color: #586069;
+            margin-top: 25px;
+        }
+
+        .tags-section b {
+            color: #000000;
+        }
+
+        .tag-item {
+            background-color: #eff3f6;
+            border: 1px solid #e1e4e8;
+            border-radius: 3px;
+            padding: 2px 6px;
+            margin-right: 5px;
+            display: inline-block;
+            text-decoration: none;
+            color: #586069;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+
+        
+        <h1>HTML Tutorial</h1>
+        <hr>
+
+        
+        <h2>What is HTML?</h2>
+
+        <p>
+            <dfn><b>Hypertext Markup Language</b> (<b><abbr title="Hypertext Markup Language">HTML</abbr></b>)</dfn> is the standard markup language for creating web pages and web applications.
+        </p>
+
+        <p>
+            Web browsers receive <span class="term-underline">HTML</span> documents from a web server or from local storage and render the documents into multimedia web pages. <span class="term-underline">HTML</span> describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        </p>
+
+        <p>
+            <span class="term-underline">HTML</span> elements are the building blocks of <span class="term-underline">HTML</span> pages. With <span class="term-underline">HTML</span> constructs, images and other objects such as interactive forms may be embedded into the rendered page. <span class="term-underline">HTML</span> provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. <span class="term-underline">HTML</span> elements are delineated by tags, written using angle brackets. Tags such as <code>&lt;img /&gt;</code> and <code>&lt;input /&gt;</code> directly introduce content into the page. Other tags such as <code>&lt;p&gt;</code> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the <span class="term-underline">HTML</span> tags, but use them to interpret the content of the page.
+        </p>
+        <hr>
+        
+        <h2>Markup</h2>
+
+        <p>
+            <span class="term-underline">HTML</span> markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and entity references. <span class="term-underline">HTML</span> tags most commonly come in pairs like <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code>, although some represent empty elements and so are unpaired, for example <code>&lt;img&gt;</code>. The first tag in such a pair is the <i>start tag</i>, and the second is the <i>end tag</i> (they are also called <i>opening tags</i> and <i>closing tags</i>).
+        </p>
+
+        <p>
+            Another important component is the <span class="term-underline">HTML</span> document type declaration, which triggers standards mode rendering.
+        </p>
+
+        <p>The following is an example of the classic "Hello, World!" program:</p>
+
+        
+        <pre>&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;This is a title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Hello world!&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+        
+        <hr>
+
+        
+        <div class="tags-section">
+            <b>Tags:</b> 
+            <span class="tag-item">CodingScripting</span>
+            <span class="tag-item">head</span>
+            <span class="tag-item">HTML</span>
+            <span class="tag-item">Introduction to HTML</span>
+            <span class="tag-item">Landing</span>
+            <span class="tag-item">Links semantics</span>
+            <span class="tag-item">Structure</span>
+            <span class="tag-item">Text</span>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
