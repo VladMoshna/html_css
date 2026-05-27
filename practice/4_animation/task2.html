@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Жива іконка</title>
+
+<style>
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:white;
+    }
+
+    .box{
+        width:250px;
+        height:250px;
+        background:white;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .heart{
+        width:250px;
+        transition:0.5s;
+        filter: grayscale(100%);
+    }
+
+    .box:hover .heart{
+        transform:scale(1.5);
+        filter: grayscale(0%);
+    }
+</style>
+</head>
+<body>
+
+<div class="box">
+    <img src="resources/favorites.png" class="heart">
+</div>
+
+</body>
+</html>
