@@ -1,0 +1,72 @@
+body {
+    background-color: cornsilk;
+}
+
+p {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #689155;
+  }
+  
+  .menu > li {
+    position: relative;
+  }
+  
+  .menu > li > a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu > li > a:hover {
+    background: #334e35;
+  }
+  
+
+  .submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #334e35;
+    display: none
+    
+  }
+  
+  .submenu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .submenu li a:hover {
+    background: #444;
+  }
+  
+
+  .has-submenu:hover > .submenu {
+    display: block;
+  }
+  
+
+  .has-submenu:hover > a {
+    background: #444;
+  }
+  
+
+  .submenu .submenu {
+    top: 0;
+    left: 100%;
+  }
+  
